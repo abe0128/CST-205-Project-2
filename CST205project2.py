@@ -5,7 +5,7 @@ import os
 
 
 face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
-eye_cascade = cv2.CascadeClassifier('haarcascade_eye.xml')aa
+eye_cascade = cv2.CascadeClassifier('haarcascade_eye.xml')
 
 img = cv2.imread('image1-abe.jpg')
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
