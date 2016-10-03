@@ -1,9 +1,11 @@
 import numpy as np
 import cv2
+import os
 
 
 face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 eye_cascade = cv2.CascadeClassifier('haarcascade_eye.xml')
+
 test=face_cascade.load('haarcascade_frontalface_default.xml')
 print(test)
 img = cv2.imread('100_0750.jpg')
